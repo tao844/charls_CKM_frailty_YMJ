@@ -24,8 +24,9 @@ Analysis code and aggregate result tables for the manuscript submitted to the **
 | `R/09_figures.R` | Figure 1 (cohort flow), Figure 2 (KM curves), Figure 3 (Fine–Gray forest plot) |
 | `R/_ms_spec.R` | Final primary models used for the manuscript tables (mortality six-cell table, within-stratum contrasts, trends, RERI; cognition Cox and Fine–Gray panels) |
 | `R/10_timefixed_supplement.R` | Time-fixed (T1) specification of the mortality model, full cohort and excluding the 2011–2013 interval deaths; reproduces Supplementary Table S4 |
+| `R/12_fi_nockm_and_2wave_sens.R` | FI_noCKM six-cell mortality sensitivity (overlap of 5/41 items removed; n = 11,752, frailty gradient unchanged) and two-wave-confirmed cognitive impairment sensitivity (341 events, null pattern unchanged) |
 | `R/11_excluded_mortality.R` | Mortality of the 3,472 participants excluded for missing baseline cognition: 21.6% among the 2,165 linkable to the CHARLS mortality follow-up versus 11.7% in the analytic cohort (basis for the absolute-risk-underestimate statement in Methods/Limitations) |
-| `results/` | Aggregate result tables only (29 CSV + `_ms_spec.json`): main HR/SHR tables, rates, stepwise adjustment, RERI, trend tests, PH tests, time-varying HR appendix, MI pooled estimates, LMM slopes, flow and validation tables. `Supplementary_YMJ.docx` (manuscript supplement, Tables S1–S5) is generated from these aggregate tables |
+| `results/` | Aggregate result tables only (29 CSV + `_ms_spec.json`): main HR/SHR tables, rates, stepwise adjustment, RERI, trend tests, PH tests, time-varying HR appendix, MI pooled estimates, LMM slopes, flow and validation tables. `Supplementary_YMJ.docx` (manuscript supplement, Tables S1–S6) is generated from these aggregate tables |
 | `sessionInfo.txt` | R session information for reproducibility |
 
 ## Reproducibility notes
